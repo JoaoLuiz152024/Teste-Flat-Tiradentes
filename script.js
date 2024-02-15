@@ -18,4 +18,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     // Redirect to WhatsApp
     window.location.href = whatsappUrl;
   });
-  
+
+document.getElementById('mapa').addEventListener('click', function(){
+    window.location.href = 'pontos_turisticos.html'
+})  

@@ -30,11 +30,11 @@ body {
     border: 1px solid #ccc;
   }
   
-  button {
+  #enviar{
     display: block;
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     background-color: #007bff;
     border: none;
@@ -45,4 +45,43 @@ body {
   button:hover {
     background-color: #0056b3;
   }
-  
+
+  #mapa{
+    top: 205px;
+    width: 358px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #voltar{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #pontos{
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  #text{
+    text-align: justify;
+    text-indent: 20px;
+  }
+
+  #so_pra_centrar{
+    text-align: center;
+  }
